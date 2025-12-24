@@ -1,4 +1,1 @@
-## repo to hold all pocs for different technologies
-
-- apicurio
-- liquibase
+## just random pocs of tools and stuff

@@ -1,0 +1,25 @@
+name: "translation"
+backend: "python"
+max_batch_size: 8
+
+input [
+  {
+    name: "TEXT"
+    data_type: TYPE_STRING
+    dims: [ 1 ]
+  }
+]
+
+output [
+  {
+    name: "TRANSLATION"
+    data_type: TYPE_STRING
+    dims: [ 1 ]
+  }
+]
+
+instance_group [
+  {
+    kind: KIND_CPU
+  }
+]
